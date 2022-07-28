@@ -1,0 +1,64 @@
+html, body {
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+}
+
+.intro {
+    color:white;
+    background-image: url("https://i.pinimg.com/736x/ee/dd/fa/eeddfa4e8326fdbd1d0bd902fdc727bf--growing-plants-lonely-planet.jpg");
+}
+
+
+.green-headings {
+    color: green;
+}
+
+
+#info-button {
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    margin: 20px;
+    display:block;
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+}
+
+#info-button:hover {
+    background-color: white;
+    color: green;
+}
+
+.photo-gallery {
+    width:100%;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    /*border: 1px solid red;*/
+}
+
+.gallery-items {
+    margin-right: 20px;
+    margin-left: 20px; 
+    width: 20%;
+    /*border: 1px solid pink;*/
+    background-color: green;
+    color: white;
+}
+
+.gallery-items img {
+    
+    width: 100%;
+}
+
