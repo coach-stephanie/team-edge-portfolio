@@ -5,9 +5,34 @@ html, body {
 
 body {
     text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+    background-color: aquamarine;
+    padding: 20px 0px;
+    font-family: sans-serif;
+}
+
+.navbar a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .intro {
+    padding: 50px 0px;
     color:white;
     background-image: url("https://i.pinimg.com/736x/ee/dd/fa/eeddfa4e8326fdbd1d0bd902fdc727bf--growing-plants-lonely-planet.jpg");
 }
@@ -55,10 +80,17 @@ body {
     /*border: 1px solid pink;*/
     background-color: green;
     color: white;
+    border-radius: 10px;
+    min-width: 200px;
 }
 
 .gallery-items img {
     
     width: 100%;
+}
+
+.iframe {
+    width: 50%;
+    height: 650px;
 }
 
